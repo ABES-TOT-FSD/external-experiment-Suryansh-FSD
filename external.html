@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Page Responsive</title>
+<style>
+    body {
+        margin: 10px;
+        padding: 20px;    
+        text-align: center;
+        border: solid 1px;
+    }
+
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .product-card {
+        background: grey;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .product-image img {
+        width: 100px;
+        height: 150px;
+        border-radius: 4px;
+    }
+
+    .product-name {
+        font-weight: bold;
+        margin: 8px 0 5px;
+    }
+
+    .product-description {
+        font-size: 12px;
+        
+        margin-bottom: 8px;
+    }
+
+    .product-price {
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<h1>Responsive Product Grid</h1> 
+
+<div class="product-grid"> 
+<div class="product-card"> 
+<div class="product-image"> 
+<img src="https://m.media-amazon.com/images/I/61-XNG5lPBL._AC_UY436_QL65_.jpg" alt="Headphones">
+</div>
+<div class="product-name">Wireless Headphones</div> 
+<div class="product-description">High quality sound with noise cancellation
+</div>
+<div class="product-price">Rs- 2,999</div>
+</div> 
+<div class="product-card"> 
+<div class="product-image"> 
+<img src="https://m.media-amazon.com/images/I/71JGCn1z1TL._AC_UY436_QL65_.jpg" alt="Smartphone"> 
+</div>
+<div class="product-name">Smartphone</div> 
+<div class="product-description">Latest iPhone with great camera</div>
+<div class="product-price">Rs- 1,15,999</div> </div>
+</div>
+
+</body>
+
+</html>
